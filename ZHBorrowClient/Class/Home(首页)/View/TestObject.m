@@ -11,23 +11,18 @@
 @implementation TestObject
 +(void)testObj{
     
-    NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj");
+    NSLog(@"testObj");
 
 }
 
 +(void)testObj2{
     
     NSLog(@"testObj2");
-    NSLog(@"testObj2");
-    NSLog(@"testObj2");
-    NSLog(@"testObj2");
 }
 
 +(void)testObj3{
     
     NSLog(@"testObj3");
-     NSLog(@"testObj3");
-     NSLog(@"testObj3");
 }
 
 +(void)testObj4{
