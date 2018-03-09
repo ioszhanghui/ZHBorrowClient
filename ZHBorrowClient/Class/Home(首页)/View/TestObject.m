@@ -28,6 +28,13 @@
     NSLog(@"testObj3");
      NSLog(@"testObj3");
      NSLog(@"testObj3");
+    NSLog(@"testObj3");
+    NSLog(@"testObj3");
+    NSLog(@"testObj3");
+    
+    NSLog(@"testObj3");
+    NSLog(@"testObj3");
+    NSLog(@"testObj3");
 }
 
 @end
