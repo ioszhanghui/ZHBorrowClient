@@ -8,10 +8,14 @@
 
 #import "XXXXObject.h"
 
-@interfaceXXXXObject()
+@interface XXXXObject()
 
 @end
 
 @implementation XXXXObject
 
+-(void)test{
+    NSLog(@"我只提交到zhanghui");
+    
+}
 @end
