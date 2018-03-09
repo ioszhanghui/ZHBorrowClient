@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>金额不限</string>
+	<string>500元</string>
+	<string>1000元</string>
+	<string>1500元</string>
+	<string>2000元</string>
+	<string>3000元</string>
+	<string>4000元</string>
+	<string>5000元</string>
+	<string>6000元</string>
+	<string>7000元</string>
+	<string>8000元</string>
+	<string>9000元</string>
+	<string>10000元</string>
+	<string>15000元</string>
+	<string>20000元</string>
+	<string>30000元</string>
+	<string>50000元</string>
+	<string>10万元</string>
+	<string>20万元</string>
+	<string>30万元</string>
+</array>
+</plist>

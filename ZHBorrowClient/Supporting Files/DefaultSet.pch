@@ -1,0 +1,140 @@
+//
+//  DefaultSet.pch
+//  ZHBorrowClient
+//
+//  Created by 小飞鸟 on 2017/12/18.
+//  Copyright © 2017年 小飞鸟. All rights reserved.
+//
+
+#ifndef DefaultSet_pch
+#define DefaultSet_pch
+#import "ImportFile.h"
+
+
+/********************友盟统计APPKey*******************/
+#define UM_App_Key @"5a12354bb27b0a3632000010"
+
+/********************talkingData*******************/
+#define  Talking_API_ID @"35D2EBC9B01D4D59A6BF54A62C8140DE"
+
+
+/********************用户数据*******************/
+
+#define LogIn_phone @"LogIn_phone" //登录手机号码
+#define Location @"Location" //位置信息
+#define Loan @"Loan" //选择额度
+
+//版本信息
+
+#define IOS8AndLater [[[UIDevice currentDevice] systemVersion] floatValue]>=8
+
+#define StatusBarHeight   [[UIApplication sharedApplication] statusBarFrame].size.height
+
+
+//发布版本
+#define UD_URL_HOME  @"http://123.57.70.38:8888"
+//本地的域名 中伟的服务器
+//#define UD_URL_HOME  @"http://192.168.3.74:8081"
+//本地的域名  志辉的服务器
+//#define UD_URL_HOME @"http://192.168.3.133:8080"
+
+/**
+ *  UAT的服务器
+ */
+//#define UD_URL_HOME @"http://182.150.20.24:10009"
+
+//#define UD_URL_HOME  @"http://123.57.70.38:8888"
+//#define UD_URL_HOME  @"http://123.57.70.38:18888"
+
+
+
+//注册协议
+# define Register_Protocol UD_URL_HOME@"ZHYQWeb/H5Pages/register_protocol/register_protocol.html"
+
+
+/******************颜色相关的****************/
+
+
+//RGB颜色设置
+#define kSetUpCololor(RED,GREEN,BLUE,ALPHA) [UIColor colorWithRed:RED/255.0 green:GREEN/255.0 blue:BLUE/255.0 alpha:ALPHA]
+
+//16进制颜色设置
+#define UIColorWithRGB(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue]
+
+#define kCommonBlackColor [UIColor colorWithRed:0.17f green:0.23f blue:0.28f alpha:1.00f]
+
+
+#define ZHLineColor       UIColorWithRGB(0xF3F3F3,1.0) //线的颜色
+#define ZHThemeColor      UIColorWithRGB(0xdab074,1.0) //主题色
+#define ZHBackgroundColor UIColorWithRGB(0xf1f2f4,1.0)//底灰
+#define ZHSubTitleColor   UIColorWithRGB(0x676767,1.0) //子标题的颜色
+#define ZHBtnColor   UIColorWithRGB(0xcba064,1.0) //按钮标题的颜色
+#define ZHClearColor   [UIColor clearColor] //透明色
+#define ZHTitleColor  kSetUpCololor(30,30,30,1.0)
+#define kSeperatorColor kSetUpCololor(234,237,240,1.0)
+#define kCommonGrayTextColor [UIColor colorWithRed:0.63f green:0.63f blue:0.63f alpha:1.00f]
+
+/********************屏幕宽和高*******************/
+#define ZHScreenW [UIScreen mainScreen].bounds.size.width
+#define ZHScreenH [UIScreen mainScreen].bounds.size.height
+#define kWindowFrame           [[UIScreen mainScreen] bounds]
+
+//window窗口
+#define kWindow [UIApplication sharedApplication].keyWindow
+
+
+//根据屏幕宽度计算对应View的高
+#define ZHFit(value) ((value * ZHScreenW) / 375.0f)
+
+/********************字体适配*******************/
+#define ZHFont_Title ZHFontSize(15.0)
+#define ZHFont_Detitle ZHFontSize(14.0)
+#define ZHFont_BtnTitle ZHFontSize(18.0)
+#define ZHFont_Middle ZHFontSize(16.0)
+#define ZHFont_default ZHFontSize(17.0)
+#define ZHFont_small ZHFontSize(12.0)
+
+/**字体*/
+#define ZHFontSize(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (ZHScreenW > 375 ? x * 1.1 : x ) : x / 1.1)]
+
+#define ZHFontLineSize(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightLight]
+
+#define ZHFontMediumSize(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightRegular]
+
+#define ZHFontBold(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightBold]
+
+#define ZHFontHeavy(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightHeavy]
+
+
+#define ZHFontSemibold(x) [UIFont systemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1) weight:UIFontWeightSemibold]
+
+/**加粗字体*/
+#define ZHFontBoldSize(x) [UIFont boldSystemFontOfSize:(ZHScreenW > 374 ? (CGFloat)x  : (CGFloat)x / 1.1)]
+
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+/********************数据的判断处理*******************/
+/**判断字符串是否为空*/
+#define NULLString(string) ((string == nil) ||[string isEqualToString:@""] ||([string length] == 0)  || [string isKindOfClass:[NSNull class]] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0 ||[string isEqual:[NSNull null]])
+
+
+
+//版本号
+#define  KVersion [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleShortVersionString"]
+
+//数组是否为空
+#define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define kDictIsEmpty(dic) (dic == nil || ![dic isKindOfClass:[NSDictionary class]] || dic.allKeys == 0)
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define WeakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#define BoolValue(value) value==YES? NO:YES
+
+#define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = false;}
+
+#endif /* DefaultSet_pch */
