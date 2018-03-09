@@ -85,7 +85,6 @@
 		46D453161FF4E6A100FE0DF0 /* otherLink.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D453151FF4E6A100FE0DF0 /* otherLink.plist */; };
 		46E42B7B205225530043E0D4 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E42B7A205225530043E0D4 /* TestObject.m */; };
 		46E42B7E20522B0C0043E0D4 /* FetchObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E42B7D20522B0C0043E0D4 /* FetchObj.m */; };
-		46E42B8120523AB90043E0D4 /* XXXXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E42B8020523AB90043E0D4 /* XXXXObject.m */; };
 		46F9782C1FF39E4C000DB6F7 /* ZHShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978221FF39E4C000DB6F7 /* ZHShopViewController.m */; };
 		46F9782D1FF39E4C000DB6F7 /* ZHButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978251FF39E4C000DB6F7 /* ZHButtonItemView.m */; };
 		46F9782E1FF39E4C000DB6F7 /* ZHChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978271FF39E4C000DB6F7 /* ZHChooseView.m */; };
@@ -280,8 +279,6 @@
 		46E42B7A205225530043E0D4 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		46E42B7C20522B0C0043E0D4 /* FetchObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchObj.h; sourceTree = "<group>"; };
 		46E42B7D20522B0C0043E0D4 /* FetchObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchObj.m; sourceTree = "<group>"; };
-		46E42B7F20523AB90043E0D4 /* XXXXObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXXObject.h; sourceTree = "<group>"; };
-		46E42B8020523AB90043E0D4 /* XXXXObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXXObject.m; sourceTree = "<group>"; };
 		46F978211FF39E4C000DB6F7 /* ZHShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShopViewController.h; sourceTree = "<group>"; };
 		46F978221FF39E4C000DB6F7 /* ZHShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShopViewController.m; sourceTree = "<group>"; };
 		46F978241FF39E4C000DB6F7 /* ZHButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHButtonItemView.h; sourceTree = "<group>"; };
@@ -747,8 +744,6 @@
 				466623781FE8E4D000D17D4A /* ZHHomeHeader.h */,
 				466623791FE8E4D000D17D4A /* ZHHomeHeader.m */,
 				46E42B7C20522B0C0043E0D4 /* FetchObj.h */,
-				46E42B7F20523AB90043E0D4 /* XXXXObject.h */,
-				46E42B8020523AB90043E0D4 /* XXXXObject.m */,
 				46E42B7D20522B0C0043E0D4 /* FetchObj.m */,
 				46E42B79205225530043E0D4 /* TestObject.h */,
 				46E42B7A205225530043E0D4 /* TestObject.m */,
@@ -1209,7 +1204,6 @@
 				46CA11D41FEA3593007B44B8 /* ZHWorkInfoViewController.m in Sources */,
 				13AE25421FE80AC500176577 /* AVCaptureViewController.m in Sources */,
 				132F74141FE8020C007C7992 /* ZHCommonButton.m in Sources */,
-				46E42B8120523AB90043E0D4 /* XXXXObject.m in Sources */,
 				132F73D41FE80078007C7992 /* UserTool.m in Sources */,
 				46C151A11FEA54490059B1C0 /* ZHAuthViewController.m in Sources */,
 				132F73DB1FE800B8007C7992 /* ZHPickerView.m in Sources */,
