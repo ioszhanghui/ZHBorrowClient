@@ -9,7 +9,7 @@
 #import "TestObject.h"
 
 @implementation TestObject
-+（void）testObj{
++(void)testObj{
     
     NSLog(@"testObj");
 }
