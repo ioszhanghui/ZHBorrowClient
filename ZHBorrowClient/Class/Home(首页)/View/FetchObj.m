@@ -16,17 +16,6 @@
     NSLog(@"huihuiBranch23提交到huihui分支");
 }
 
-
-
-
-
-+(void)huihuiBranch23{
-    
-    NSLog(@"huihuiBranch23提交到huihui分支");
-    NSLog(@"huihuiBranch23提交到huihui分支");
-}
-
-
 +(void)huihuiBranch234{
     
     NSLog(@"huihuiBranch23提交到huihui分支");
