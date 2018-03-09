@@ -13,9 +13,9 @@
     
     NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj");
     
-    
-    
-    
+    NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj");
+    NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj");
+    NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj"); NSLog(@"testObj");
     NSLog(@"testObj");
 }
 
