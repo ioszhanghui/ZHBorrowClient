@@ -11,25 +11,8 @@
 @implementation TestObject
 +(void)testObj{
     
-<<<<<<< HEAD
-    
-     NSLog(@"testObj");
-     NSLog(@"testObj");
-    
-    
-    
-    
-    
-     NSLog(@"testObj");
-     NSLog(@"testObj");
-=======
     NSLog(@"testObj");
->>>>>>> huihui
     
-    
-    
-    
-    NSLog(@"testObj");
 }
 
 +(void)testObj2{
