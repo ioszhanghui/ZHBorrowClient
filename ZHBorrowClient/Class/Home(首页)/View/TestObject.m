@@ -28,14 +28,8 @@
     NSLog(@"testObj3");
      NSLog(@"testObj3");
      NSLog(@"testObj3");
-    NSLog(@"testObj3");
-    NSLog(@"testObj3");
-    NSLog(@"testObj3");
-    
-    NSLog(@"testObj3");
-    NSLog(@"testObj3");
-    NSLog(@"testObj3");
 }
+
 +(void)testObj4{
     
     NSLog(@"testObj4");
