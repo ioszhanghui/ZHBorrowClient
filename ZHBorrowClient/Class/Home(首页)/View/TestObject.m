@@ -14,4 +14,14 @@
     NSLog(@"testObj");
 }
 
++(void)testObj2{
+    
+    NSLog(@"testObj2");
+}
+
++(void)testObj3{
+    
+    NSLog(@"testObj3");
+}
+
 @end
