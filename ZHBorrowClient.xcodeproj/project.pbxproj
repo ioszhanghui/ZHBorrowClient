@@ -84,7 +84,6 @@
 		46D453141FF4E5F100FE0DF0 /* parent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D453131FF4E5F100FE0DF0 /* parent.plist */; };
 		46D453161FF4E6A100FE0DF0 /* otherLink.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D453151FF4E6A100FE0DF0 /* otherLink.plist */; };
 		46E42B7B205225530043E0D4 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E42B7A205225530043E0D4 /* TestObject.m */; };
-		46E42B7E20522B0C0043E0D4 /* FetchObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E42B7D20522B0C0043E0D4 /* FetchObj.m */; };
 		46F9782C1FF39E4C000DB6F7 /* ZHShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978221FF39E4C000DB6F7 /* ZHShopViewController.m */; };
 		46F9782D1FF39E4C000DB6F7 /* ZHButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978251FF39E4C000DB6F7 /* ZHButtonItemView.m */; };
 		46F9782E1FF39E4C000DB6F7 /* ZHChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F978271FF39E4C000DB6F7 /* ZHChooseView.m */; };
@@ -277,8 +276,6 @@
 		46D453151FF4E6A100FE0DF0 /* otherLink.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = otherLink.plist; sourceTree = "<group>"; };
 		46E42B79205225530043E0D4 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		46E42B7A205225530043E0D4 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
-		46E42B7C20522B0C0043E0D4 /* FetchObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchObj.h; sourceTree = "<group>"; };
-		46E42B7D20522B0C0043E0D4 /* FetchObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchObj.m; sourceTree = "<group>"; };
 		46F978211FF39E4C000DB6F7 /* ZHShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHShopViewController.h; sourceTree = "<group>"; };
 		46F978221FF39E4C000DB6F7 /* ZHShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHShopViewController.m; sourceTree = "<group>"; };
 		46F978241FF39E4C000DB6F7 /* ZHButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHButtonItemView.h; sourceTree = "<group>"; };
@@ -743,8 +740,6 @@
 				4666237D1FE8EEA500D17D4A /* TTScrollRulerView.m */,
 				466623781FE8E4D000D17D4A /* ZHHomeHeader.h */,
 				466623791FE8E4D000D17D4A /* ZHHomeHeader.m */,
-				46E42B7C20522B0C0043E0D4 /* FetchObj.h */,
-				46E42B7D20522B0C0043E0D4 /* FetchObj.m */,
 				46E42B79205225530043E0D4 /* TestObject.h */,
 				46E42B7A205225530043E0D4 /* TestObject.m */,
 			);
@@ -1168,7 +1163,6 @@
 				130F96BF1FEA99B800D06B17 /* ZHAuthCell.m in Sources */,
 				132F741F1FE80238007C7992 /* ZHNavigationController.m in Sources */,
 				132F740C1FE8020C007C7992 /* UIButton+Extension.m in Sources */,
-				46E42B7E20522B0C0043E0D4 /* FetchObj.m in Sources */,
 				13D7C4AC1FF0EE4100E4D127 /* ZHLinkPeopleModel.m in Sources */,
 				46F9782D1FF39E4C000DB6F7 /* ZHButtonItemView.m in Sources */,
 				130F96D31FEC888B00D06B17 /* ZHLoanCell.m in Sources */,
