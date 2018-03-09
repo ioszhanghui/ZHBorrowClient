@@ -8,6 +8,10 @@
 
 #import "XXXXObject.h"
 
+@interfaceXXXXObject()
+
+@end
+
 @implementation XXXXObject
 
 @end
