@@ -10,4 +10,10 @@
 
 @implementation FetchObj
 
++(void)huihuiBranch{
+    
+    NSLog(@"我要提交到huihui分支");
+    
+}
+
 @end
