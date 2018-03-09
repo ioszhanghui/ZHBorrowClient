@@ -17,6 +17,33 @@
      NSLog(@"testObj");
      NSLog(@"testObj");
     NSLog(@"testObj");
+    
+    
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    
+    
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    
+    
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
+    NSLog(@"testObj");
 }
 
 +(void)testObj2{
