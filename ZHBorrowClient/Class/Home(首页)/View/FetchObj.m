@@ -16,4 +16,9 @@
     
 }
 
++(void)huihuiBranch23{
+    
+    NSLog(@"huihuiBranch23提交到huihui分支");
+}
+
 @end
